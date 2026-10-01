@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10151a" />
+    <meta
+      name="description"
+      content="A little place for a favorite memory, and a letter for يسو."
+    />
+    <title>A little place for us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="opening" id="opening" aria-label="A little gift for يسو">
+      <div class="opening__sky" aria-hidden="true"></div>
+      <div class="opening__content">
+        <p class="eyebrow opening__eyebrow">A LITTLE PLACE, JUST FOR YOU</p>
+        <h1 lang="ar" dir="rtl">إلى يسو <span class="opening__heart">❤️</span></h1>
+        <p class="opening__subtitle">Some memories deserve their own little place.</p>
+        <button class="open-button" id="open-gift" type="button">
+          <span>Open my little gift</span>
+          <span class="open-button__heart" aria-hidden="true">❤️</span>
+        </button>
+        <p class="opening__aside">Take a quiet moment</p>
+      </div>
+      <span class="opening__horizon" aria-hidden="true"></span>
+    </div>
+
+    <main id="gift" class="gift" tabindex="-1" inert>
+      <header class="topbar">
+        <a class="wordmark" href="#memory" aria-label="A little place for us, home">
+          <span class="wordmark__dot" aria-hidden="true"></span>
+          A LITTLE PLACE FOR US
+        </a>
+        <a
+          class="music-control"
+          href="https://open.spotify.com/search/%D9%85%D8%A7%20%D8%AA%D9%85%D9%86%D9%8A%D8%AA%D9%83%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%D9%87"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Find ما تمنيتك by Mohammed Abdu on Spotify"
+        >
+          <span class="music-control__note" aria-hidden="true">♫</span>
+          <span>Play the song</span>
+          <span class="music-control__heart" aria-hidden="true">❤️</span>
+        </a>
+      </header>
+
+      <section class="memory section-shell" id="memory">
+        <div class="memory__intro reveal">
+          <p class="eyebrow">A MEMORY, KEPT CLOSE</p>
+          <h2>One of my favorite <em>memories.</em></h2>
+          <span class="small-rule" aria-hidden="true"></span>
+        </div>
+
+        <figure class="photo-card reveal">
+          <div class="photo-card__frame">
+            <img
+              src="assets/our-evening.jpg"
+              alt="A quiet evening overlooking the city, with a candlelit table beneath the night sky."
+              fetchpriority="high"
+            />
+            <span class="photo-card__light" aria-hidden="true"></span>
+          </div>
+          <figcaption class="photo-caption">
+            <span class="photo-caption__lead">
+              One of the places that became special simply because we were there.
+            </span>
+            <span class="photo-caption__note">
+              One of the many little memories I will always keep.
+            </span>
+          </figcaption>
+        </figure>
+
+        <a
+          class="song-note reveal"
+          href="https://open.spotify.com/search/%D9%85%D8%A7%20%D8%AA%D9%85%D9%86%D9%8A%D8%AA%D9%83%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%D9%87"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="song-note__icon" aria-hidden="true">♫</span>
+          <span class="song-note__text">
+            <span class="song-note__title">A song for this memory</span>
+            <span class="song-note__artist" lang="ar" dir="rtl">ما تمنيتك · محمد عبده</span>
+          </span>
+          <span class="song-note__action">Listen on Spotify <span aria-hidden="true">↗</span></span>
+        </a>
+      </section>
+
+      <section class="letter-section section-shell" aria-labelledby="letter-title">
+        <div class="letter-card">
+          <div class="letter-card__top reveal">
+            <p class="eyebrow">A FEW THINGS I WANTED YOU TO KNOW</p>
+            <span class="letter-card__rule" aria-hidden="true"></span>
+          </div>
+          <article class="letter">
+            <h2 id="letter-title" class="letter__greeting reveal">To Yassou ❤️</h2>
+            <p class="reveal">
+              Maybe I don’t always know how to put everything I feel into words,
+              but today I wanted to tell you something I probably don’t say enough.
+            </p>
+            <p class="reveal">
+              Thank you for every beautiful moment we’ve shared,
+              for every place we’ve been to together,
+              and for every little memory that became special simply because you were there.
+            </p>
+            <p class="reveal">
+              Thank you for every meal, every little surprise, every time you thought about me,
+              and every single thing you did just to make me happy.
+            </p>
+            <p class="reveal">
+              Maybe some of these things seemed small to you,
+              but they were never small to me.
+            </p>
+            <p class="reveal">
+              I noticed them.<br />
+              I remembered them.<br />
+              And I appreciated every little effort you made for me.
+            </p>
+            <p class="reveal">
+              I love the little things about you,
+              your presence, your smile, your way of making ordinary moments feel different.
+            </p>
+            <p class="reveal">
+              And more than anything,<br />
+              I love the memories we’re creating together.
+            </p>
+            <p class="reveal">
+              I hope we never stop making them.<br />
+              I hope there will always be another place to discover,<br />
+              another meal to share,<br />
+              another stupid laugh,<br />
+              another beautiful day that becomes a memory.
+            </p>
+            <p class="reveal">
+              Yassou, thank you for being part of my life,
+              and thank you for every time you tried to make my days a little happier. ❤️
+            </p>
+            <div class="letter__end reveal" aria-hidden="true">
+              <span></span><span>♥</span><span></span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="arabic-ending" id="arabic-ending" aria-label="A note from the heart">
+        <div class="arabic-ending__glow" aria-hidden="true"></div>
+        <div class="arabic-ending__content" lang="ar" dir="rtl">
+          <div class="arabic-lines">
+            <p class="arabic-line reveal">يمكن ما نعرفش ديما كيفاش نعبرلك على اللي في قلبي،</p>
+            <p class="arabic-line reveal">أما نحبك تعرف اللي نقدّر كل حاجة عملتها عشاني.</p>
+            <p class="arabic-line reveal">كل تفصيلة، كل لحظة، وكل ذكرى بيناتنا عندها بلاصة في قلبي.</p>
+            <p class="arabic-line reveal">شكراً على كل شيء، وعلى كل مرة حاولت تفرحني.</p>
+            <p class="arabic-line arabic-line--climax reveal">نحبك يا يسو، أكثر مما تنجم الكلمات توصف. ❤️</p>
+          </div>
+          <div class="closing-note" id="closing-note">
+            <span class="closing-note__heart" aria-hidden="true">♥</span>
+            <p class="closing-note__signoff">With love, always. ❤️</p>
+            <p class="closing-note__from">— from me, to you.</p>
+          </div>
+        </div>
+      </section>
+      <footer class="page-end" aria-hidden="true"></footer>
+    </main>
+  </body>
+</html>
